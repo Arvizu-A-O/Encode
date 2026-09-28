@@ -1,11 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encode Computadoras</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encode Computadoras</title>
+<meta name="description" content="Reparación, mantenimiento, venta de computadoras, redes y videovigilancia en Ensenada, B.C. Diagnóstico en 24 horas y 90 días de garantía.">
+<link rel="icon" type="image/jpeg" href="assets/icons/mark.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual';</script>
 </head>
 <body>
-    
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+</svg>
+
+<a class="skip" href="#servicios">Saltar al contenido</a>
+
+<header class="header" id="top">
+  <div class="wrap header__inner">
+    <a href="#top" class="brand"><img src="assets/img/logo-color.png" alt="Encode"></a>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Cómo trabajamos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero__text">
+      <div class="hero__copy">
+        <h1>Reparación y venta de computadoras en Ensenada</h1>
+        <div class="hero__actions">
+          <a href="#servicios" class="btn btn--line-light">Ver servicios</a>
+          <a href="#contacto" class="btn btn--yellow">Agendar revisión</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__photo">
+      <img src="assets/img/tecnico-rtx.jpg" alt="Técnico de Encode instalando una tarjeta gráfica en una computadora">
+    </div>
+  </section>
+
+  <section class="block" id="servicios">
+    <div class="wrap services">
+      <div class="services__side">
+        <h2>Qué hacemos</h2>
+        <p>Tecnología para casa, oficina o negocio.</p>
+        <div class="stage" id="stage" aria-hidden="true">
+          <img class="is-on" src="assets/img/reparacion-pc.jpg" alt="">
+          <img src="assets/img/pc-armada-1.jpg" alt="" loading="lazy">
+          <img src="assets/img/mantenimiento-discos.jpg" alt="" loading="lazy">
+          <img src="assets/img/actualizaciones.jpg" alt="" loading="lazy">
+          <img src="assets/img/accesorios.jpg" alt="" loading="lazy">
+          <img src="assets/img/soporte-laptop.jpg" alt="" loading="lazy" style="object-position:center 30%">
+          <img src="assets/img/redes.jpg" alt="" loading="lazy">
+          <img src="assets/img/camaras.jpg" alt="" loading="lazy">
+          <img src="assets/img/seguridad.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+
+      <ul class="list" id="svcList">
+        <li class="is-on" data-i="0">
+          <img class="svc-img" src="assets/img/reparacion-pc.jpg" alt="Técnico de Encode conectando cables dentro de una PC con iluminación RGB" loading="lazy" style="object-position:center 40%">
+          <h3>Reparación</h3>
+          <a class="ask" href="#contacto" data-service="Reparación">Cotizar</a>
+        </li>
+        <li data-i="1">
+          <img class="svc-img" src="assets/img/pc-armada-1.jpg" alt="Computadora de escritorio armada por Encode" loading="lazy">
+          <h3>Venta de computadoras</h3>
+          <a class="ask" href="#contacto" data-service="Venta de computadoras">Cotizar</a>
+        </li>
+        <li data-i="2">
+          <img class="svc-img" src="assets/img/mantenimiento-discos.jpg" alt="Interior de un equipo con discos duros" loading="lazy">
+          <h3>Mantenimiento de equipos</h3>
+          <a class="ask" href="#contacto" data-service="Mantenimiento de equipos">Cotizar</a>
+        </li>
+        <li data-i="3">
+          <img class="svc-img" src="assets/img/actualizaciones.jpg" alt="Pantalla de laptop descargando una actualización de software" loading="lazy">
+          <h3>Actualizaciones</h3>
+          <a class="ask" href="#contacto" data-service="Actualización">Cotizar</a>
+        </li>
+        <li data-i="4">
+          <img class="svc-img" src="assets/img/accesorios.jpg" alt="Gadgets y accesorios: mouse, control, micrófonos y celular" loading="lazy">
+          <h3>Accesorios</h3>
+          <a class="ask" href="#contacto" data-service="Accesorios">Cotizar</a>
+        </li>
+        <li data-i="5">
+          <img class="svc-img" src="assets/img/soporte-laptop.jpg" alt="Laptop en el mostrador de la tienda" loading="lazy" style="object-position:center 30%">
+          <h3>Soporte técnico</h3>
+          <a class="ask" href="#contacto" data-service="Soporte técnico">Cotizar</a>
+        </li>
+        <li data-i="6">
+          <img class="svc-img" src="assets/img/redes.jpg" alt="Switch de red con cables conectados" loading="lazy">
+          <h3>Redes y WiFi</h3>
+          <a class="ask" href="#contacto" data-service="Redes y WiFi">Cotizar</a>
+        </li>
+        <li data-i="7">
+          <img class="svc-img" src="assets/img/camaras.jpg" alt="Cámara de seguridad instalada en una pared" loading="lazy">
+          <h3>Videovigilancia</h3>
+          <a class="ask" href="#contacto" data-service="Videovigilancia">Cotizar</a>
+        </li>
+        <li data-i="8">
+          <img class="svc-img" src="assets/img/seguridad.jpg" alt="Cerradura inteligente controlada desde un celular" loading="lazy">
+          <h3>Instalaciones de seguridad</h3>
+          <a class="ask" href="#contacto" data-service="Instalaciones de seguridad">Cotizar</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block block--dark" id="proceso">
+    <div class="wrap">
+      <div class="process">
+        <h2>Cómo trabajamos</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="block block--paper" id="contacto">
+    <div class="wrap">
+      <h2>Contacto</h2>
+
+      <div class="reach">
+        <a class="reach__item reach__item--wa" href="https://wa.me/526462678323" target="_blank" rel="noopener">
+          <svg class="ico ico--lg"><use href="#i-wa"/></svg>
+          <span class="reach__label">WhatsApp</span>
+          <span class="reach__value">(646) 267 8323</span>
+        </a>
+        <a class="reach__item" href="tel:+526461771635">
+          <svg class="ico ico--lg" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+          <span class="reach__label">Llamar</span>
+          <span class="reach__value">(646) 177 1635</span>
+        </a>
+        <a class="reach__item" href="mailto:computadorasencode@gmail.com">
+          <svg class="ico ico--lg" viewBox="0 0 24 24"><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.6 7v.1L12 12.3 19.4 7.1V7L12 12.2z"/></svg>
+          <span class="reach__label">Correo</span>
+          <span class="reach__value reach__value--mail">computadorasencode@gmail.com</span>
+        </a>
+      </div>
+
+      <div class="contact">
+        <div class="contact__form">
+          <h3>Pide tu cotización</h3>
+          <form id="quoteForm" novalidate>
+            <div class="row">
+              <label>Equipo
+                <select id="equipo" required>
+                  <option value="">Selecciona</option>
+                  <option>Laptop</option>
+                  <option>PC de escritorio</option>
+                  <option>Impresora</option>
+                  <option>Red / WiFi</option>
+                  <option>Cámaras de seguridad</option>
+                  <option>Otro</option>
+                </select>
+              </label>
+              <label>Servicio
+                <select id="servicio" required>
+                  <option value="">Selecciona</option>
+                  <option>Reparación</option>
+                  <option>Venta de computadoras</option>
+                  <option>Mantenimiento de equipos</option>
+                  <option>Actualización</option>
+                  <option>Accesorios</option>
+                  <option>Soporte técnico</option>
+                  <option>Redes y WiFi</option>
+                  <option>Videovigilancia</option>
+                  <option>Instalaciones de seguridad</option>
+                </select>
+              </label>
+            </div>
+            <label>Qué necesitas o qué falla tiene
+              <textarea id="falla" rows="3" placeholder="Se apaga sola, no carga, no tiene internet..."></textarea>
+            </label>
+            <div class="row">
+              <label>Nombre
+                <input type="text" id="nombre" required autocomplete="name">
+              </label>
+              <label>Teléfono
+                <input type="tel" id="telefono" required autocomplete="tel" inputmode="tel">
+              </label>
+            </div>
+            <button type="submit" class="btn btn--blue"><svg class="ico"><use href="#i-wa"/></svg>Enviar por WhatsApp</button>
+          </form>
+        </div>
+
+        <div class="contact__visit">
+          <h3>Visítanos</h3>
+          <img class="shop" src="assets/img/vitrina.jpg" alt="Vitrina de la tienda con tarjetas gráficas y fuentes de poder" loading="lazy">
+          <address>
+            Iturbide 680, entre calle 6ta y 7ma<br>
+            Col. Obrera, Ensenada, B.C.
+          </address>          <table class="hours">
+            <tr><th>Lun–Vie</th><td>8:00–14:00 · 15:30–18:00</td></tr>
+            <tr><th>Sáb</th><td>8:00–13:00</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe title="Mapa de Encode en Ensenada" src="https://maps.google.com/maps?q=ENCODE%20COMPUTADORAS%2C%20Av.%20Iturbide%20680%2C%20Obrera%2C%2022830%20Ensenada%2C%20B.C.&ftid=0x80d89278283d5267:0xb2a641b6ee2b5d96&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <img src="assets/img/logo-white.png" alt="Encode" class="footer__logo">
+    <div class="social">
+      <a href="https://facebook.com/computadorasencode" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+      </a>
+      <a href="https://instagram.com/encodeinstalaciones" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+    <p>© <span id="year"></span> Encode · Ensenada, B.C.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/526462678323" target="_blank" rel="noopener" class="fab" aria-label="Escribir por WhatsApp">
+  <svg class="ico"><use href="#i-wa"/></svg>
+</a>
+
+<script src="js/main.js"></script>
 </body>
 </html>
